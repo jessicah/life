@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post/2009/mays on Journal</title>
+    <link>https://life.jessicah.org/post/2009/may/</link>
+    <description>Recent content in Post/2009/mays on Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 May 2009 20:44:27 +1200</lastBuildDate>
+    <atom:link href="https://life.jessicah.org/post/2009/may/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Old Box-Type Monitors FTL</title>
+      <link>https://life.jessicah.org/post/2009/may/old-box-type-monitors-ftl/</link>
+      <pubDate>Sat, 23 May 2009 20:44:27 +1200</pubDate>
+      
+      <guid>https://life.jessicah.org/post/2009/may/old-box-type-monitors-ftl/</guid>
+      <description>&lt;p&gt;Oww, my freakin&amp;rsquo; eyes.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s a pretty good summation of my experience of connecting my beloved EeePC to my very old 17&amp;rdquo; CRT. The blur, the pain, the fat pixels. Ugh, my EeePC&amp;rsquo;s screen is so pristine in comparison.&lt;/p&gt;
+
+&lt;p&gt;One has to wonder how we survived using computers before the advent of LCDs. I certainly won&amp;rsquo;t be using my CRT again; that was god-awful to use. And it was only plugged in for less than a minute.&lt;/p&gt;
+
+&lt;p&gt;And my eyes are still recovering from the pain&amp;hellip; so ouch!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Drunken Stupor</title>
+      <link>https://life.jessicah.org/post/2009/may/drunken-stupor/</link>
+      <pubDate>Sun, 17 May 2009 13:46:37 +1200</pubDate>
+      
+      <guid>https://life.jessicah.org/post/2009/may/drunken-stupor/</guid>
+      <description>&lt;p&gt;I feel so awful today. It&amp;rsquo;s been a long time since I&amp;rsquo;ve been drunk before. And last night, I went way over my limit. Like if the sky was the limit, I&amp;rsquo;d be at Jupiter.&lt;/p&gt;
+
+&lt;p&gt;Was Diane&amp;rsquo;s birthday party yesterday, which was a lot of fun. We had a surprise dinner for her at the Aberdeen Steak House, and embarrassed her with a poor rendition of the happy birthday song, as is customary :)&lt;/p&gt;
+
+&lt;p&gt;Then after dinner, we went to Guy&amp;rsquo;s house for Sing Star, which was a lot of fun. And it was surprising to see who were best at it, not at all the people I&amp;rsquo;d have expected. Me and my almost non-existent singing voice didn&amp;rsquo;t do at all well!&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, my night finished with a couple sessions bent over the old ceramic bowl. And now the aftermath of all that wine is taking its toll. I really shouldn&amp;rsquo;t drink wine&amp;mdash;it&amp;rsquo;s the worst possible alcoholic drink I could probably consume.&lt;/p&gt;
+
+&lt;p&gt;But all-in-all, it was a great night. Just an awful morning&amp;hellip; :p&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Where Are Those Packets?</title>
+      <link>https://life.jessicah.org/post/2009/may/where-are-those-packets/</link>
+      <pubDate>Thu, 14 May 2009 11:50:01 +1200</pubDate>
+      
+      <guid>https://life.jessicah.org/post/2009/may/where-are-those-packets/</guid>
+      <description>&lt;p&gt;For those that don&amp;rsquo;t know, I started an operating system project, that culminated in what&amp;rsquo;s now &lt;a href=&#34;https://code.google.com/archive/p/snowflake-os/&#34;&gt;Snowflake&lt;/a&gt;. It&amp;rsquo;s a small hobby that sometimes keeps me busy, and other times falls by the wayside.&lt;/p&gt;
+
+&lt;p&gt;It used to be a lot more fun when Taras hacked on it alongside me&amp;mdash;we were a great programming team.&lt;/p&gt;
+
+&lt;p&gt;Nowadays, Taras spends most of his time working under the hood of the Mozilla codebase, writing crazy code analysis and transformation tools to improve Firefox.&lt;/p&gt;
+
+&lt;p&gt;But it&amp;rsquo;d be nice to have Taras back. He&amp;rsquo;d definitely be an immense help with my TCP woes. I&amp;rsquo;m struggling to find out where stuff is dying, and I&amp;rsquo;m pretty certain it&amp;rsquo;s in my TCP code.&lt;/p&gt;
+
+&lt;p&gt;Given my network stack still replies to ARP requests after the TCP stream I&amp;rsquo;m trying to read dies kinda rules out a major problem in either the network stack or the realtek nic driver. Which leaves me with my poorly implemented TCP code&amp;mdash;it&amp;rsquo;s so yuck.&lt;/p&gt;
+
+&lt;p&gt;Still, I&amp;rsquo;m happy that the problem seems to be there and not at a lower level. That&amp;rsquo;d probably be worse. Well, I assume that&amp;rsquo;s where it is, it is networking code after all&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

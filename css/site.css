@@ -1,0 +1,506 @@
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+	color: #ff0000;
+}
+
+.field-validation-valid
+{
+	display: none;
+}
+
+.input-validation-error
+{
+	border: 1px solid #ff0000;
+	background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.validation-summary-valid
+{
+	display: none;
+}
+
+/* original site design by Bartosz -- http://www.bartosz.co.nz/ */
+
+
+
+body
+{
+	font-family: Cambria, serif;
+	font-size: 0.74em;
+	line-height: 20px; /* make this in ems */
+	margin: 1em;
+	background-color: #dff3d7; /* possibly replace background image */
+	background-color: #e9c6bf;
+	background-color: rgb(255,232,239);
+	background-color: black;
+}
+
+
+
+ul.horizontal
+{
+	list-style: none;
+}
+
+ul.horizontal li
+{
+	display: inline;
+}
+
+
+
+.clear
+{
+	clear: both;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+
+
+a
+{
+	text-decoration: none;
+	color: #b00;
+}
+
+
+
+a:hover
+{
+	border-bottom: 2px solid #f48;
+	color: #e37;
+}
+
+
+
+#main
+{
+	width: 700px;
+	padding: 10px;
+	background-color: #fff;
+	margin: 0 auto 0 auto;
+}
+
+
+
+#header
+{
+	width: 700px;
+	height: 258px;
+	color: #fff;
+	font-family: "Trebuchet MS" , Arial, Verdana, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 20px;
+	background-color: rgb(69,77,20); /* the green */
+	background-color: rgb(20,69,77); /* the blue */
+}
+
+
+
+#logo
+{
+	display: block;
+	width: 500px;
+	height: 258px;
+	border-right: 2px solid #fff;
+	float: left;
+	background-image: url("/images/last-fires-breath-edit.jpg");
+}
+
+
+
+#logo.red-light-district
+{
+	background-image: url("/images/red-light-district-13ft.jpg");
+}
+
+
+#logo.burn
+{
+	background-image: url("/images/burn-13ft.jpg");
+}
+
+
+#logo.occam
+{
+	background-image: url("/images/occam-13ft.jpg");
+}
+
+
+#header h1
+{
+	color: #fff;
+	font-family: "Trebuchet MS" , Arial, Verdana, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	padding: 0;
+	padding-top: 65px;
+	padding-left: 525px;
+	padding-bottom: 35px;
+	margin: 0;
+	border-bottom: 2px solid #fff;
+	background-image: none;
+	line-height: 0.7em;
+}
+
+
+
+#header h1 a
+{
+	color: #9acc53; /* the green */
+	color: rgb(116,159,176); /* the blue */
+}
+
+
+
+#header h1 a:hover
+{
+	border-bottom: none;
+}
+
+
+
+#header.red-light-district
+{
+  background-color: #6d141d;
+}
+
+
+
+#header.red-light-district h1 a
+{
+	color: #cd3041;
+}
+
+
+
+#header p
+{
+	padding: 5px;
+	padding-left: 30px;
+	padding-top: 40px;
+	width: 100px;
+	margin: 0;
+	margin-left: 520px;
+	margin-right: 10px;
+	text-indent: -10px;
+	font-size: 90%;
+}
+
+
+
+#menu
+{
+	width: 577px !important;
+	width: 575px;
+	padding: 5px 123px 6px 0 !important;
+	padding: 5px 125px 6px 0;
+	margin: 0;
+	margin-top: 2px;
+	background-color: #4f5a4f;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+
+
+#menu a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	font-weight: bold;
+	text-transform: lowercase;
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 1.5em 11px 1.5em;
+	margin-left: 0;
+}
+
+
+
+#menu li:first-child a
+{
+	margin-left: 1.5em;
+}
+
+
+
+#menu a:hover
+{
+	color: rgb(116,159,176);
+	border-bottom: 3px solid rgb(116,159,176);
+	border-top: 2px solid rgb(116,159,176);
+}
+
+
+
+#menu a.current
+{
+	color: #9acc53;
+	border-bottom: 2px solid #9acc53;
+	border-top: 2px solid #9acc53;
+}
+
+
+
+#sidebar
+{
+	width: 150px;
+	border: 1px solid #fff;
+	padding: 5px;
+	float: left;
+	clear: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+#sidebar ul
+{
+	padding-left: 2em;
+	/*font-size: 1.1em;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-transform: lowercase;
+	font-weight: bold;
+}
+
+
+#sidebar.sidebar-page
+{
+	width: 90%;
+}
+
+
+.sidebar-page li
+{
+	list-style-type: none;
+	text-transform: none;
+}
+
+
+.sidebar-page .plain
+{
+	font-weight: normal;
+	text-transform: none;
+}
+
+
+
+#archives a:hover
+{
+	border-color: transparent;
+	color: #e37;
+}
+
+
+
+#archives .current
+{
+	color: #291;
+	color: #00b;
+	/*color: rgb(69,77,20); /* the green */
+	color: rgb(20,69,77); /* the blue */
+	color: rgb(116,159,176);
+	color: #9acc53;
+	color: Black;
+	font-weight: bold;
+	list-style-type: disc;
+}
+
+
+
+#content
+{
+	width: 530px;
+	float: left;
+	margin-left: 5px;
+}
+
+
+
+#content.content-page
+{
+	width: 90%;
+}
+
+
+
+.post
+{
+	margin: 0;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+.post h2 a
+{
+	color: black;
+}
+
+
+.post h2 a
+{
+	border-bottom: none;
+	color: black;
+}
+
+
+
+.post p
+{
+	padding-right: 40px;
+	text-align: justify;
+	font-family: Cambria, Georgia, "Times New Roman" , Times, serif;
+	font-size: 12pt;
+}
+
+
+
+.post-page
+{
+	width: 100%;
+	padding: 10px 40px;
+}
+
+
+
+.post-page img.left
+{
+	margin: 0.5em;
+	margin-left: 0;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	border: 2px solid rgb(69,77,20);
+}
+
+
+
+.post p.post-footer
+{
+	font-size: 10pt;
+	text-align: right;
+}
+
+
+
+p.post-footer a
+{
+	color: #205;
+}
+
+p.post-footer a:hover
+{
+	border-color: transparent;
+	color: #00b
+}
+
+
+
+#footer
+{
+	clear: both;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	padding-bottom: 40px;
+	border-top: solid #cd3041 1px;
+}
+
+
+
+#footer p
+{
+	line-height: 1em;
+}
+
+#footer a:hover
+{
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+.posterous-crap a:hover
+{
+	border-bottom: none;
+}
+
+
+
+a.imagelink img
+{
+	border: solid 4px black;
+	padding: 0.7em;
+	max-width: 90%;
+}
+
+a.imagelink
+{
+	display: block;
+	border: none;
+	text-align: center;
+}
+
+a:hover.imagelink img
+{
+	border-color: #b00;
+}
+
+ul.pagination
+{
+	text-align: center;
+	padding-left: 0;
+	padding-right: 160px;
+	font-size: 12pt;
+}
+
+ul.pagination li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+ul.pagination li a
+{
+	padding: 0;
+	margin: 0;
+	display: block;
+	padding: 0.25em 1.5em;
+	font-weight: bold;
+}
+
+ul.pagination li a:hover
+{
+	border-bottom: none;
+}
+
+svg
+{
+	font-size: 10px;
+	font-family: Ubuntu, Tahoma, sans-serif;
+}
+
+svg path.line
+{
+	stroke-width: 1;
+	fill: none;
+}
